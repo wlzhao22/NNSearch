@@ -1,7 +1,6 @@
 # NNSearch: A Unified NN Search Framework
 
-Due to restrictions imposed by the company's agreement, we are unable to release the internal code for building indexes and conducting NN search. However, we now releases a unified NN search framework based on the [hnswlib](https://github.com/nmslib/hnswlib). While it may not be fully optimized, one advantage is that it allows for a fairer comparison of search performance with hnswlib, even if the latter employs a hierarchical indexing structure.
-
+Due to restrictions imposed by the company's agreement, we are unable to release the internal code for building indexes and conducting the NN search. However, we now release a unified NN search framework based on the [hnswlib](https://github.com/nmslib/hnswlib). While it may not be fully optimized, one advantage is that it allows for a fairer comparison of search performance with hnswlib, even if the latter employs a hierarchical indexing structure.
 
 ## Features
 * support various indexing graphs (TSDG$^+$, DPG, NSG, SSG, Vamana and HNSW), while only one universal api.
@@ -55,6 +54,6 @@ python draw_fig.py
 
 ## Note
 1. Only `float` datatype is support as hnswlib does. 
-2. Only search performance curve in out paper's Fig 6 - 9 can be made. We have some un-released version of code, which optimize the memory cost during NN search. 
+2. Only search performance curve in out paper's Fig 6 - 8 can be made. We have some un-released version of code, which optimizes the memory cost during NN search. 
 3. For full API, plz run `./hnswlib/build/uni_nnsearch -h` 
 4. Our API source codes are listed at `hnswlib/examples/cpp/uni_nnsearch.cpp` and `hnswlib/hnswlib/dataloader.h`. Have fun with it. 
