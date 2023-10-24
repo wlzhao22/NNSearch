@@ -3,6 +3,9 @@
 Due to restrictions imposed by the company's agreement, we are unable to release the internal code for building indexes and conducting the NN search. However, we now release a unified NN search framework based on the [hnswlib](https://github.com/nmslib/hnswlib). While it may not be fully optimized, one advantage is that it allows for a fairer comparison of search performance with hnswlib, even if the latter employs a hierarchical indexing structure.
 
 ## Features
+
+![framework](./nnsearch_framework.jpg)
+
 * support various indexing graphs (TSDG$^+$, DPG, NSG, SSG, Vamana and HNSW), while only one universal api.
     * Automatically select the load function based on the suffix of the index graph.
     * `.ivecs` for k-NN graph, shortcut graph, TSDG$^+$, and [DPG](https://github.com/DBAIWangGroup/nns_benchmark)
