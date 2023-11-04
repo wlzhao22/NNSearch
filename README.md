@@ -55,6 +55,19 @@ cd ../..
 python draw_fig.py
 ```
 
+## Indexing Parameters Are Available
+* We release the parameters we used to index.
+* LSH-APG's parameters are loyal to the [original implementations](https://github.com/Jacyhust/LSH-APG) except the searched candidate pool size, which is set as `512`. Since it cannot be integrated into this NN search framwork, its parameters are not listed here, and can be found in its literature. 
+![sift1m_para](index_parameters/sift1m.jpeg)
+![deep1m_para](index_parameters/deep1m.jpeg)
+![gist1m_para](index_parameters/gist1m.jpeg)
+![turing1m_para](index_parameters/turing1m.jpeg)
+![spacev1m_para](index_parameters/spacev1m.jpeg)
+![t2i1m_para](index_parameters/t2i1m.jpeg)
+![sift100m_para](index_parameters/sift100m.jpeg)
+![deep100m_para](index_parameters/deep100m.jpeg)
+![turing100m_para](index_parameters/turing100m.jpeg)
+![spacev100m_para](index_parameters/spacev100m.jpeg)
 
 ## Note
 1. Only `float` datatype is supported as hnswlib does. 
