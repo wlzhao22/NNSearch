@@ -69,6 +69,10 @@ python draw_fig.py
 ![turing100m_para](index_parameters/turing100m.jpeg)
 ![spacev100m_para](index_parameters/spacev100m.jpeg)
 
+## Author
+Jie-Feng Wang
+This project was developped when Mr. Jie-Feng Wang was pursuing his Master degree in Xiamen Unviersity.
+
 ## Note
 1. Only `float` datatype is supported as hnswlib does. 
 2. Only the search performance curves in our paper's Fig 6 - 8 can be made. We have an un-released version code, which optimizes the memory cost during NN search. 
