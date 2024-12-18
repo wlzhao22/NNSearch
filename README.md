@@ -70,8 +70,7 @@ python draw_fig.py
 ![spacev100m_para](index_parameters/spacev100m.jpeg)
 
 ## Author
-Jie-Feng Wang
-This project was developped when Mr. Jie-Feng Wang was pursuing his Master degree in Xiamen Unviersity.
+Jie-Feng Wang is the author of this project. This project was developped when Mr. Jie-Feng Wang was pursuing his Master degree in Xiamen Unviersity.
 
 ## Note
 1. Only `float` datatype is supported as hnswlib does. 
